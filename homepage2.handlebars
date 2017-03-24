@@ -1,0 +1,172 @@
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Handlee">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {
+                        font-family: "Handlee", sans-serif;
+                        font-size: 30px;
+                        font-weight: bold;
+                        text-align: center;
+    
+                        
+                        }
+.w3-bar,h1,button {
+                        font-family: "Handlee", sans-serif;
+                        font-color: orange;
+                 
+                    }
+    
+
+    
+    .gallery {
+        width: 100%;
+        height: auto;
+       
+        text-align: center;
+    
+       
+    }
+    
+    
+    
+    .text_over_image {
+     position:absolute;
+      margin: auto;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+       font-size:50px;
+        text-align: center;
+         height: auto;
+        width: 100%;
+        color: black;
+       
+        
+    }
+
+    
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-orange w3-card-2 w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-orange"  onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+      <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Specialty Scented Markers</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Office Supplies</a>
+    <a href="contact-us.handlebars" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact Us</a>
+      
+          <p class="w3-right">
+      <i class="fa fa-shopping-cart w3-margin-right w3-hover-white"></i>
+      <i class="fa fa-search w3-hover-white w3-margin-right"></i>
+          </p>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Specialty Scented Markers</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Office Supplies</a
+    <a href="contact-us.handlebars" class="w3-bar-item w3-button w3-padding-large">Contact Us</a>
+     
+
+      <p class="w3-right">
+      <i class="fa fa-shopping-cart w3-margin-right"></i>
+      <i class="fa fa-search"></i>
+          </p>
+     
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-xlarge">
+    <div class =  "w3-padding-xxlarge w3-orange" >
+    
+    <img src = "http://www.sidewaysthoughts.com/blog/wp-content/uploads/2013/08/IdentityMarkers.jpg" width = "100%"/>
+ <div class = "w3-display-middle w3-padding-xxlarge w3-text-Black">
+     <h1 style = "font-size: 65px"><b>Richwood Scent-ific</b></h1>
+      
+     <h2 style = "font-size: 40px"><b>Markers and Office Supplies</b></h2>
+  
+  <button class="w3-button  w3-opacity w3-padding-large w3-large w3-margin-top" style = "vertical-align: center" "color: orange">Start Shopping</button>
+        </div>
+    </div>
+            </header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>About Us</h1>
+        <h5 class="w3-padding-32"><b>Richwood Scent-ific might be a fairly new and small business, but we work hard to meet all your office supply needs.</b></h5>
+
+   
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="fa w3-padding-64 w3-text-red"></i>
+        <img src = "http://www.wpclipart.com/education/supplies/markers/text_marker_drawing_purple.png" height = "150px" width="150px"/>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <i class="w3-padding-64 w3-text-red w3-margin-right"></i>
+        <img src = "http://askmissa.com/wp-content/uploads/2010/04/Colored-Markers.jpg" width ="200px" height = "200px"/>
+    </div>
+
+    <div class="w3-twothird">
+        <h1>Our Products</h1>
+        <h5 class="w3-padding-32"><b>Richwood Scent-ific is always trying to come up with new and creative ways to bring fun back into the office. Our favorite is our scented markers. Our fun Markers have some of the juiciest and boldest scents with a smooth writing formula. We hope to bring other fun and innovative product to your Office Soon!</b></h5>
+
+ 
+    </div>
+  </div>
+</div>
+
+      <!-- Subscribe section -->
+  
+  
+<div class = "w3-orange" style = "background-color: #A9A9A9">
+    <h1>Subscribe</h1>
+    <p>To get special offers:</p>
+    <p><textarea rows = "1" cols = "80" placeholder = "Your Email" required></textarea></p>
+    <button class = "w3-hover-white" type="button" style = "color: orange">Subscribe</button>
+  </div>
+  
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+   <a href="https://www.facebook.com/" class="w3-hover-text-indigo"><i class="fa fa-facebook-official"></i></a>
+   <a href="https://www.pinterest.com/" class="w3-hover-text-red"><i class="fa fa-pinterest-p"></i></a>
+   <a href="https://twitter.com/" class="w3-hover-text-light-blue"><i class="fa fa-twitter"></i></a>
+   <a href="https://www.flickr.com/?ytcheck=1" class="w3-hover-text-grey"><i class="fa fa-flickr"></i></a>
+   <a href="https://www.linkedin.com/" class="w3-hover-text-indigo"><i class="fa fa-linkedin"></i></a>
+ </div>
+ 
+</footer>
+
+<script src = "script.js" type = "text/javascript">
+// Used to toggle the menu on small screens when clicking on the menu buttonp
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
